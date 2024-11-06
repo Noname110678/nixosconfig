@@ -3,7 +3,7 @@
 # if the script is located in ~/nix then do nothing
 if [[ "$PWD" != "/mnt$HOME/nix" ]]; then
     mkdir -p "/mnt$HOME/nix"
-    cp "$PWD/*" "/mnt$HOME/nix"
+    cp -fr "$PWD/**" "/mnt$HOME/nix"
     echo " Copied files to /mnt$HOME/nix. "
     echo " Modifying the config only in ~/nix !!! "
     echo " Press any key to proceed "
