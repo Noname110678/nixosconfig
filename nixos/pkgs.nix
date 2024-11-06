@@ -11,7 +11,8 @@
 		wofi
 		mpv
 		pavucontrol
-		kitty
+		alacritty
+		skypeforlinux
 		gparted
 		telegram-desktop
 		google-chrome
@@ -25,6 +26,7 @@
 		
 		doas
 		htop
+		iwd
 		wget
 		git
 		killall
@@ -51,12 +53,15 @@
 		bluez-tools
 		zsh
 		lshw
+		zoxide
+
 		# wayland approved
 		wl-clipboard
 		xwayland
 		wl-clipboard
 		cliphist
 		wlogout
+		hyprlock
 		swaylock
 		hyprpaper
 		waybar

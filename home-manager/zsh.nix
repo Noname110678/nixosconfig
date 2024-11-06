@@ -13,7 +13,7 @@
       rb = "sudo nixos-rebuild switch --flake ${flakeDir}";
       upd = "nix flake update ${flakeDir}";
       upg = "sudo nixos-rebuild switch --upgrade --flake ${flakeDir}";
-
+      cd = "zoxide";
       hms = "home-manager switch --flake ${flakeDir}";
 
       conf = "nvim ${flakeDir}/nixos/configuration.nix";
